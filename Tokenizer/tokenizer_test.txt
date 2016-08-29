@@ -1,0 +1,46 @@
+"This is a string"
+
+/* This file will be loaded to the project to show Requirement No 4, it will be used in testing of following type of tokens:
+	1) Alphanumeric Tokens
+	2) Punctuator Tokens
+	3) Special one and two character tokens
+	4) C Style Comments Returned as a single token
+	5) C++ Style Comments Returned as a single token
+	6) Quoted Strings
+ This file will also show functionalities of setSpecialSingleChars(string ssc) and setSpecialCharPairs(string scp).*/
+ 
+//Alphanumeric tokens will be returned individually.
+
+int main()
+{
+	//Alhanumeric Tokens: They will be displayed althrough the file.
+	std::string a = "abc";
+	//Punctuator Tokens will be displayed at the end of program together.
+	//below are some tests for single one and two character token; extensive list is given at the end of the progra.
+	int a,b,c,d;
+	if(a<b)
+	{
+		std::cout<< c+d;
+	}
+	if(a==b)
+	{
+		c*=d;
+		d/=c;
+		a-=b;
+		a++;
+		b++;
+		c= a+b;
+		d=b-a;
+	}
+	// Below is a string which is handeled as per instructed on Project1-S2016.html
+	std::string s1= "This is a simple string";
+	std::string s2= "This is an \"example\" of string \n";
+	std::string s3= "This is another example of \'c\'har handeling string";
+	
+	return 0;
+}
+
+//Following lines are syntactically wrong and are there for testing:
+punctuator list = ~!@#$&_
+special one character tokens = <>[](){}:=+-*\n
+special two character tokens = <<>>::++--==+=-=*=/=

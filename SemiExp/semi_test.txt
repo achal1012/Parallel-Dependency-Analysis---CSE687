@@ -1,0 +1,45 @@
+/* This document will be used to display the requirements for SemiExpression, it will show functionalities such as
+	show different semiExpressions for following things:
+	1) This will use Toker::getTok() to get tokens until different SemiExpression termination condition 
+	   occours.
+	2) SemiExpression will break at ';','}' and '{'
+	3) SemiExpression will also break at line which starts with #
+	4) SemiExpression will extract at single character token consisting of ":" 
+	   if immediately preceeded by one of the tokens: "public", "protected", or "private"
+	5) Special case for "for" loop is also displayed.
+*/	
+#include"../SemiExp/SemiExp.h"
+#include"../Tokenizer/Tokenizer.h"
+#include<string>
+
+class tester
+{
+public:
+	void foo();
+protected:
+	bool check();
+private:
+	int a;
+};
+
+int main()
+{
+	tester t1;
+	t1.foo();
+	int i= 5;
+	while(i>=0){
+		if(i>3)
+			std::cout<<"Hello";
+		i--;
+	}
+	
+	//This is for loop which will terminate according to requirement.
+	for(int x=0; x<10 ; x++){
+		std::cout<<x;
+	}
+	//this shows c++ 11 style for loop 
+	for(auto m: _m)
+	{
+		std::cout<<"This is a C++11 style comment.";
+	}
+}

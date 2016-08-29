@@ -1,0 +1,186 @@
+/*void abssort(float* x, unsigned n) {
+    std::sort(x, x + n,
+        // Lambda expression begins
+        [](float a, float b) {
+            return (std::abs(a) < std::abs(b));
+        } // end of lambda expression
+    );
+}*/
+
+using A = char;
+using WORD_u = unsigned int;
+using pChar_u = char *;
+using field_u = char [50];
+
+typedef char field [50];
+typedef unordered_map<classA, ClassB> myType;
+typedef char C;
+typedef unsigned int WORD;
+typedef char * pChar;
+
+
+int main()
+{
+	for(int a=0;a<10;a++)
+	{
+		if(int a==3)
+		{
+			break;
+		}
+	}
+	void abc()
+	{
+		// do nothing
+	}
+}
+
+
+class ShowDeclaration : public IAction
+{
+public:
+void increment()
+{
+	if(a==0){
+	int c= b-d;
+	a++;
+}
+}
+protected:
+int c;
+float p;
+int sexy()
+{`
+while (n>0) {
+    cout << n << ", ";
+    --n;
+  }
+}
+private:
+int a;
+int d;
+};
+try
+{
+int main()
+{
+switch(grade)
+{
+   case 'A' :
+      cout << "Excellent!" << endl; 
+      break;
+   case 'B' :
+   case 'C' :
+      cout << "Well done" << endl;
+      break;
+   case 'D' :
+      cout << "You passed" << endl;
+      break;
+   case 'F' :
+      cout << "Better try again" << endl;
+      break;
+   default :
+      cout << "Invalid grade" << endl;
+}
+
+if (Yes==Yes, yes==yes)
+{
+
+                    cout<<"Enter a number:  \n";
+                    cin>> num;
+                    cin.ignore();
+
+                if (num==5){
+                    cout<<"Congradulations, you guessed right.\n";
+                    }
+                else {
+                    cout<<"You guessed wrong.\n";
+                    }
+}
+
+}
+}
+catch(exception e)
+{
+	std::cout<<exception<<e;
+}
+
+
+/*
+while(A.5);
+do
+{
+	count++;
+} while (A>5);
+
+try
+
+
+
+{
+throw 20;
+}
+
+
+/*
+class ShowDeclaration : public IAction
+{
+};
+
+struct product 
+{
+  int weight;
+  double price;
+};
+
+struct movies_t {
+  string title;
+  int year;
+} mine, yours;
+
+
+if(a==0)
+{
+	int c= b-d;
+	a++
+}
+
+while (n>0) {
+    cout << n << ", ";
+    --n;
+  }
+
+
+switch(grade)
+{
+   case 'A' :
+      cout << "Excellent!" << endl; 
+      break;
+   case 'B' :
+   case 'C' :
+      cout << "Well done" << endl;
+      break;
+   case 'D' :
+      cout << "You passed" << endl;
+      break;
+   case 'F' :
+      cout << "Better try again" << endl;
+      break;
+   default :
+      cout << "Invalid grade" << endl;
+}
+
+if (Yes==Yes, yes==yes)
+{
+
+                    cout<<"Enter a number:  \n";
+                    cin>> num;
+                    cin.ignore();
+
+                if (num==5){
+                    cout<<"Congradulations, you guessed right.\n";
+                    }
+                else {
+                    cout<<"You guessed wrong.\n";
+                    }
+}
+*/  
